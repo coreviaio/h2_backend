@@ -1721,7 +1721,7 @@ class ArticleController extends Controller
             return response()->json(['status' => false, 'message' => 'Only PDF files are allowed'], 400);
         }
 
-        $apiUrl = 'http://3.107.255.227/upload';
+        $apiUrl = 'https://pdfbot.h2-research.site/upload';
 
         try {
             // Configure HTTP client with longer timeout and retry logic
